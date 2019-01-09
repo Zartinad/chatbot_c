@@ -21,6 +21,7 @@ typedef struct sockname{
     int room;  // How many bytes remaining in buffer?
     char *after; // Pointer to position after the data in buf
 
+    char*name;
     int role; // -1 for neither, 0 for student, 1 for TA
     int state; //used to output correct string. Refer below:
 
